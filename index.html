@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Borrador</title>
+<link href="css/estilo.css" rel="stylesheet"/>
+<style type="text/css">
+@media ( max-width : 745px ){
+}
+</style>
+<script type="text/javascript">	
+		
+function muestra1(){
+		$("#s1").show();
+	    $("#s1a").show();
+		};
+function muestra2(){
+		$("#s2").show();
+	    $("#s2a").show();
+		};
+function muestra3(){
+		$("#s3").show();
+	    $("#s3a").show();
+		};
+function muestra4(){
+		$("#s4").show();
+	    $("#s4a").show();
+		};
+	
+	
+function oculta1(){
+		$("#s1").hide();
+	    $("#s1a").hide();
+	};
+function oculta2(){
+		$("#s2").hide();
+	    $("#s2a").hide();
+	};
+function oculta3(){
+		$("#s3").hide();
+	    $("#s3a").hide();
+	};
+function oculta4(){
+		$("#s4").hide();
+	    $("#s4a").hide();
+	};
+
+	
+</script>
+	
+
+<script type="text/jscript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/jscript" src="js/funciones.js"></script> 
+
+</head>
+
+<body>
+<div id="todo">
+			<div class="contenedor">
+			 	
+					<div id="centro" onClick="oculta1(), oculta2(), oculta3(), oculta4(), oculta5(), oculta6()"></div>
+					
+					<div id="b1" onClick="muestra1(), oculta2(), oculta3(), oculta4(), oculta5(), oculta6()"></div>
+					<div id="b2" onClick="muestra2(), oculta1(), oculta3(), oculta4(), oculta5(), oculta6()"></div>
+					<div id="b3" onClick="muestra3(), oculta1(), oculta2(), oculta4(), oculta5(), oculta6()"></div>
+					<div id="b4" onClick="muestra4(), oculta1(), oculta2(), oculta3(), oculta5(), oculta6()"></div>
+					
+					<div id="s1"></div>
+					<div id="s1a"></div>
+					
+					<div id="s2"></div>
+					<div id="s2a"></div>
+					
+			  		<div id="s3"></div>
+					<div id="s3a"></div>
+					
+					<div id="s4"></div>
+					<div id="s4a"></div>
+
+			 	
+		 	</div>
+</div>
+
+</body>
+</html>
